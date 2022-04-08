@@ -9,3 +9,15 @@ This is for zsh setting.
 ```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ```
+
+## Install node
+we can use brew to install node
+```bash
+brew install node
+```
+After install, you can check what package is installed.
+```bash
+yoon@yoonui-MacBookPro ~ % brew list
+==> Formulae
+brotli		c-ares		ca-certificates	icu4c		libnghttp2	libuv		node		openssl@1.1
+```
