@@ -21,3 +21,8 @@ yoon@yoonui-MacBookPro ~ % brew list
 ==> Formulae
 brotli		c-ares		ca-certificates	icu4c		libnghttp2	libuv		node		openssl@1.1
 ```
+
+## oh-my-zsh
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
