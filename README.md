@@ -8,7 +8,7 @@ This is for zsh setting.
 ```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ```
-
+ 
 ## Install packages using brew
 This is my packages
 ```bash
