@@ -15,6 +15,10 @@ we can use brew to install node
 ```bash
 brew install node
 ```
+This is my packages
+```bash
+brew install vim
+```
 After install, you can check what package is installed.
 ```bash
 yoon@yoonui-MacBookPro ~ % brew list
