@@ -9,7 +9,7 @@ This is for zsh setting.
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ```
 
-## Install node
+## Install packages using brew
 This is my packages
 ```bash
 brew install node vim
