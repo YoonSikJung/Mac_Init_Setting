@@ -10,13 +10,9 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ```
 
 ## Install node
-we can use brew to install node
-```bash
-brew install node
-```
 This is my packages
 ```bash
-brew install vim
+brew install node vim
 ```
 After install, you can check what package is installed.
 ```bash
