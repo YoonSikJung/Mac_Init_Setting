@@ -12,7 +12,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ## Install packages using brew
 This is my packages
 ```bash
-brew install node vim
+brew install node vim tig
 ```
 After install, you can check what package is installed.
 ```bash
