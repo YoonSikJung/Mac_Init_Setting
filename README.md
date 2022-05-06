@@ -1,4 +1,4 @@
-## Install homebrew
+# Install homebrew
 You can find how to intall in website.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -9,7 +9,7 @@ This is for zsh setting.
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/yoon/.zprofile
 ```
  
-## Install packages using brew
+# Install packages using brew
 This is my packages
 ```bash
 brew install node vim tig
@@ -21,13 +21,13 @@ yoon@yoonui-MacBookPro ~ % brew list
 brotli		c-ares		ca-certificates	icu4c		libnghttp2	libuv		node		openssl@1.1
 ```
 
-## oh-my-zsh
+# oh-my-zsh
 How to install
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-### plugin
-zsh-autosuggestions
+## plugin
+### zsh-autosuggestions
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
@@ -41,7 +41,7 @@ vi ~/.zshrc
     	zsh-syntax-highlighting
  )
 ```
-zsh-syntax-highlighting
+### zsh-syntax-highlighting
 ```bash
 brew install zsh-syntax-highlighting
 ```
@@ -50,5 +50,12 @@ how to apply
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 Or insert it to .zshrc
+
+# openinterminal
+finder tool app to open the current directory in terminal
+### how to install 
+```bash
+brew install --cask openinterminal
+```
 
 
